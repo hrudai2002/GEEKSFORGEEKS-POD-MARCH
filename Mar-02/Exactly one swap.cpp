@@ -7,7 +7,7 @@ long long countStrings(string s)
         vector<long long> ar(26, 0);
         for(char c : s) ar[c - 'a']++;
         
-        // long long cnt = 0;
+      
         bool yes = false;
         for(int i = 0; i < 26; ++i) {
             if(ar[i] > 1) {
